@@ -1,7 +1,8 @@
-<frame>
-    <Home />
-</frame>
-
 <script lang="ts">
-    import Home from './components/Home.svelte'
+  import Home from "./pages/Home.svelte";
+  import Start from "./pages/Start.svelte";
 </script>
+
+<frame>
+  <Start />
+</frame>
